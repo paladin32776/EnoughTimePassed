@@ -15,4 +15,5 @@ class EnoughTimePassed
     bool enough_time();       // check if enough time has passed since last event
     void event();             // manually tell that an event has happened just now
     void change_intervall(unsigned long desired_intervall);
+    void prime(); 			// enough_time will return true the next time called
 };

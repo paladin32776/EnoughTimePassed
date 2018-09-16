@@ -33,3 +33,8 @@ void EnoughTimePassed::change_intervall(unsigned long desired_intervall)
 {
   intervall = desired_intervall;
 }
+
+void EnoughTimePassed::prime()       // enough_time will return true the next time called
+{
+  once_called = false;
+}

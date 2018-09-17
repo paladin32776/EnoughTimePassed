@@ -1,4 +1,4 @@
-// Class to simplify checking if enough time 
+// Class to simplify checking if enough time
 // has been passed since last event
 // Author: Gernot Fattinger (2018)
 
@@ -11,7 +11,7 @@ class EnoughTimePassed
 {
   private:
     unsigned long last_time;
-    unsigned long intervall; 
+    unsigned long intervall;
     bool once_called;
   public:
     EnoughTimePassed(unsigned long desired_intervall);  // setup object with desired intervall

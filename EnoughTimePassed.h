@@ -4,6 +4,9 @@
 
 #include "Arduino.h"
 
+#ifndef ENOUGHTIMEPASSED_H
+#define ENOUGHTIMEPASSED_H
+
 class EnoughTimePassed
 {
   private:
@@ -17,3 +20,5 @@ class EnoughTimePassed
     void change_intervall(unsigned long desired_intervall);
     void prime(); 			// enough_time will return true the next time called
 };
+
+#endif // ENOUGHTIMEPASSED_H
